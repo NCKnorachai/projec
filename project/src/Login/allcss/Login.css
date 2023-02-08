@@ -1,0 +1,45 @@
+body{
+    background-image: url('/public/Login.png');
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans;
+    font-style: normal;
+
+}
+.all{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(151.86deg, rgba(34, 91, 158, 0.1) 0%, rgba(168, 207, 222, 0.2) 40.42%, rgba(215, 218, 225, 0.2) 67.7%, rgba(72, 96, 140, 0.2) 100%), linear-gradient(152.39deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.03) 81.51%);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    left: 550px;
+    margin-top: 150px; 
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+  
+    
+}
+.button{
+    border: 2px solid #939090;
+    box-sizing: absolute;
+    position: absolute;
+    left: 170px;
+    bottom: 50px;
+
+
+}
+.Newtosky{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.app-logo{
+    position: relative;
+    bottom: 80px;
+    text-align: center;
+}
+.login{
+    position: relative;
+    text-align: center;
+    bottom: 40px;
+}
